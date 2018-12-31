@@ -1,0 +1,30 @@
+.tree-invisible {
+    display: none;
+  }
+  
+  .tree ul,
+  .tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+  .tree-invisible {
+    display: none;
+  }
+  
+  .tree ul,
+  .tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+
+  .tree .leaf {
+    cursor: pointer;
+  }
+
+  .background-highlight li{
+      color: navy;
+      font-style: italic;
+  }
+  

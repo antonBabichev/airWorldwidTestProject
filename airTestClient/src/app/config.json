@@ -1,0 +1,4 @@
+{
+    "fileUploadUrl": "http://localhost:3340/api/file",
+    "uploadedFilesUrl": "http://localhost:3340/api/history"
+}

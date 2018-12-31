@@ -1,0 +1,16 @@
+<mat-tab-group>
+        <mat-tab label="Upload">
+            <mat-card>
+                <mat-card-content>
+                    <input matInput placeholder="Name" value="{{file}}">
+                    <button mat-button (click) = "openFileBrowser()" color="primary">Browse</button>
+                </mat-card-content>
+            </mat-card>
+            <button mat-button (click) = "uploadFile()">Upload</button></mat-tab>
+        <mat-tab label="History">
+            <mat-card>
+                <mat-card-content>
+                    test
+                </mat-card-content>
+            </mat-card></mat-tab>
+</mat-tab-group>
